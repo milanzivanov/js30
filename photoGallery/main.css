@@ -1,0 +1,25 @@
+#wrapp {
+    max-width: 500px;
+    height: auto;
+    margin:  0 auto;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#current {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+    transition: 0.3s opacity ease-in-out;
+}
+
+.thumb {
+    box-sizing: border-box;
+    width: 24.3%;
+    height: 70px;
+    padding: 5px;
+    cursor: pointer;
+}

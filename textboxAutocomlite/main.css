@@ -1,0 +1,11 @@
+/* .resealt {
+    display: none;
+}
+
+.visible {
+    display: block;
+} */
+
+.highlighted {
+    background-color: orangered;
+}

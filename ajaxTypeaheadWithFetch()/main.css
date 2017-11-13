@@ -39,9 +39,9 @@ html {
     padding: 0;
     position: relative;
     /*perspective:20px;*/
-    height: 50vh;
+    /* height: 50vh;
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: hidden; */
   }
   .suggestions li {
     background:white;
