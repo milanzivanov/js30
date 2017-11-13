@@ -12,8 +12,6 @@
     box-sizing: border-box;
     width: 100%;
     height: auto;
-    opacity: 0.5;
-    transition: 0.3s opacity ease-in-out;
 }
 
 .thumb {
@@ -22,4 +20,11 @@
     height: 70px;
     padding: 5px;
     cursor: pointer;
+    opacity: 0.5;
+    transition: 0.3s opacity ease-in-out;
+}
+
+.thumb:hover {
+    padding: 10px;
+    opacity: 1;
 }

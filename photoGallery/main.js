@@ -8,12 +8,10 @@ for(let i = 0; i < thumb.length; i++) {
 function display() {
     let img = this.getAttribute("src");
     current.setAttribute("src", img);
-    current.style.opacity = 1;
 
 }
 
-
-// with arrow function do not work bug (|)
+// with arrow function in some reason do not work hm bug (|)
 // let current = document.getElementById("current");
 // let thumb = document.getElementsByClassName("thumb");
 // for(let i = 0; i < thumb.length; i++) {
